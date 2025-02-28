@@ -68,6 +68,8 @@ if(app_page_select =="Home"):
   """)
 
 elif(app_page_select=="App"):
+  image_path ="rice-disease.png"
+  st.image(image_path,use_container_width =True)
   st.header("App - Page")
   test_image =st.file_uploader("Choose and image - up to 200MB")
   if(st.button("Show Image")):
